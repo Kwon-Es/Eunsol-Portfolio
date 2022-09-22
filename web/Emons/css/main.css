@@ -191,7 +191,7 @@
     font-style: italic;
     line-height: 25px;
 }
-.moreBtn:hover{border: none; background-color: #14008c;}
+.moreBtn:hover{border: 1px solid transparent; background-color: #14008c;}
 .moreBtn:hover a{color: #fff;}
 /* 일괄 적용 */
 .brand{width:calc(100% - 40px); margin: 0 auto;}
@@ -346,8 +346,8 @@
     font-size: 15px; line-height: 32px;
     cursor: pointer;
 }
-.tabM div:hover{background-color: #14008c; border: none; color: #fff;}
-.tabM div.on{background-color: #14008c; border: none; color: #fff;}
+.tabM div:hover{background-color: #14008c; border: 1px solid transparent; color: #fff;}
+.tabM div.on{background-color: #14008c; border: 1px solid transparent; color: #fff;}
 .rList{width: 100%;}
 .rList>li{display: none;}
 .rList>li.on{display: block;}
@@ -432,7 +432,7 @@
     font-style: italic;
     line-height: 25px;
 }
-.goBtn:hover{border: none; background-color: #14008c;}
+.goBtn:hover{border: 1px solid transparent; background-color: #14008c;}
 .goBtn:hover a{color: #fff;}
 .etc{
     width: calc(100% - 40px); margin: 0 auto;
